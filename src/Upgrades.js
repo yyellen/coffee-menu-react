@@ -1,6 +1,20 @@
 const Upgrades = () => {
   return (
     <div className="upgrades-component">
+      <div>
+        <p>升級</p>
+        <p>UPGRADES</p>
+      </div>
+      <div>
+        <span>+閃電濃縮 EXTRA EXPRESSO SHOT</span>
+        <span>OATLY 燕麥奶</span>
+        <span>榛果可可醬 NUTELLA (10g)</span>
+      </div>
+      <div className="text-end">
+        <span>10</span>
+        <span>20</span>
+        <span>5</span>
+      </div>
       {/* <table border={1}>
         <tr>
           <td rowSpan={3}><h4>升級<br/>UPGRADES</h4></td>
@@ -16,20 +30,6 @@ const Upgrades = () => {
           <td>5</td>
         </tr>
       </table> */}
-      <div>
-        <h4>升級</h4>
-        <h4>UPGRADES</h4>
-      </div>
-      <div>
-        <p>+閃電濃縮 EXTRA EXPRESSO SHOT</p>
-        <p>OATLY 燕麥奶</p>
-        <p>榛果可可醬 NUTELLA (10g)</p>
-      </div>
-      <div>
-        <p>10</p>
-        <p>20</p>
-        <p>5</p>
-      </div>
     </div>
   )
 }

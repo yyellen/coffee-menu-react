@@ -8,15 +8,13 @@ const Category = (props) => {
         <h1>{ title }</h1>
         <h1>{ entitle }</h1>
       </div>
-      <div className="row">
-      <div>
-        <h2>中杯</h2>
-        <h2>REGULAR</h2>
+      <div className="text-center">
+        <h3 >中杯</h3>
+        <h3>REGULAR</h3>
       </div>
-      <div>
-        <h2>大杯</h2>
-        <h2>UPSIZE</h2>
-      </div>
+      <div className="text-center">
+        <h3>大杯</h3>
+        <h3>UPSIZE</h3>
       </div>
     </div>
   )
